@@ -60,7 +60,7 @@ body {
     padding: 40px 0;
 }
 
-#mission>h1 {
+.section-title {
     font-size: 36px;
 }
 
@@ -75,15 +75,99 @@ body {
     padding: 24px 24px;
 }
 
-.mission-class > h3 {
+.box-title {
     font-size: 16px;
-}
-.mission-class > p{
-    font-size: 12px;
-    font-weight: 400;
+    color: rgba(14, 14, 14, 0.8);
 }
 
-#mission-container{
+.description {
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+#mission-container {
     display: flex;
     gap: 30px;
+}
+
+/* vission start */
+.vission {
+    display: flex;
+    gap: 20px;
+}
+
+.vission>div {
+    height: 300px;
+    width: 400px;
+    box-sizing: border-box;
+    padding: 28px;
+    border-radius: 16px;
+    /* display: flex; */
+    /* flex-direction: column; */
+
+
+}
+
+#vission-one {
+    background-color: rgba(84, 144, 245, 0.2);
+
+}
+
+#vission-one {
+    background-color: rgba(84, 144, 245, 0.2);
+
+}
+
+.vission>div>p {
+    padding: 10px 0;
+}
+
+.vission>div>button {
+    border-radius: 8px;
+
+    padding: 10px 20px;
+    border: none;
+    color: white;
+}
+
+#vission-one>button {
+    background-color: rgb(84, 144, 245);
+
+}
+
+
+#vission-two>button {
+    background-color: rgb(9, 161, 92);
+}
+
+
+#vission-two {
+    background-color: rgb(198, 228, 214);
+}
+
+#vission-three>button {
+    background-color: rgb(255, 194, 57);
+}
+
+
+#vission-three {
+    background-color: rgb(247, 235, 207);
+}
+
+
+/* Description section */
+
+#description-section {
+    padding: 42px 36px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+#description-section > img{
+    position: absolute;
+    left: 30px;
+    top: 20px;
 }
