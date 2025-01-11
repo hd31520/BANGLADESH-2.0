@@ -4,10 +4,11 @@
     font-family: "Fira Sans", serif;
 }
 
-body {
+.body {
     margin: auto;
     background-color: #F5F5F5;
     padding: 0 100px;
+    padding-bottom: 50px;
 }
 
 #navbar {
@@ -231,7 +232,7 @@ body {
     width: 100%;
     text-align: center;
     height: 42px;
-    box-sizing: border-box;
+   
     border: none;
     outline: none;
 
@@ -248,4 +249,55 @@ body {
 .donater{
    text-align: center;
 
+}
+.input-section-latter{
+    padding: 0 30px ;
+   
+    width: 70%;
+    height: 42px;
+   
+    border: none;
+    outline: none;
+
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.subscribe{
+    background-color: rgb(198, 228, 214);
+    padding: 60px 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+    margin: 50px 0;
+}
+
+.flex{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.sub-btn{
+    border: none;
+    outline: none;
+    background-color: rgb(0, 106, 80);
+    color: white;
+    padding: 0 20px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+footer{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px ;
+}
+.horizontal{
+    width: 100%;
+    border: 1px solid rgba(14, 14, 14, 0.1);
 }
