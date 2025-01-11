@@ -179,7 +179,7 @@ body {
 }
 
 .news-card {
-    padding:48px 48px;
+    padding: 48px 48px;
     display: flex;
     gap: 30px;
     background-color: rgb(255, 255, 255);
@@ -192,15 +192,60 @@ body {
     border-radius: 8px;
     background-color: rgb(0, 106, 80);
     color: white;
-   border: none;
+    border: none;
 }
 
-.news-card-right{
-    padding:48px 48px;
+.news-card-right {
+    padding: 48px 48px;
     display: flex;
     flex-direction: row-reverse;
     gap: 30px;
     background-color: rgb(255, 255, 255);
     border-radius: 24px;
-    margin: 40px 0; 
+    margin: 40px 20px;
+}
+
+.donate-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.donate-container>div {
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background-color: rgb(255, 255, 255);
+    padding: 0 48px;
+
+
+
+}
+
+.hover-white:hover {
+    background-color: rgb(198, 228, 214);
+    ;
+}
+
+.input-section {
+    margin: 30px 0;
+    width: 100%;
+    text-align: center;
+    height: 42px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+
+    background-color: rgb(255, 255, 255);
+}
+
+.donate-btn {
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    border-radius: 8px;
+    background-color: rgb(0, 106, 80);
+    color: white;
+    padding: 17px 34px;
+}
+.donater{
+   text-align: center;
+
 }
